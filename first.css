@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff; /* White background for the container */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+span.error {
+  color: red;
+  font-size: smaller;
+}
+
+/* Login form animation */
+.container.shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(10px); }
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
