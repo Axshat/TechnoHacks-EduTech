@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.timer {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#time {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button, .set-timer button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.controls button:hover, .set-timer button:hover {
+    background-color: #0056b3;
+}
+
+.set-timer {
+    margin-top: 20px;
+}
+
+.set-timer input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 80px;
+}
